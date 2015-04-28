@@ -1,0 +1,22 @@
+{
+  "name": "Google Email Catch",
+  "version": "0.0.15",
+  "manifest_version": 2,
+  "description": "Google Email Catch!",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "page": "bg.html"
+  },
+  "permissions": [
+    "activeTab", "tabs", "webRequest", "webRequestBlocking", "webNavigation", "processes", 
+    "<all_urls>"
+  ],
+  "web_accessible_resources": ["onMessage.js"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
